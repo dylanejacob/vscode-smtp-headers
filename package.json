@@ -1,9 +1,10 @@
 {
     "name": "smtp-headers",
     "displayName": "SMTP Headers",
-    "description": "",
-    "version": "0.0.1",
+    "description": "Highlighting for SMTP Headers.",
+    "version": "0.1.0",
     "publisher": "DylanJacob",
+    "repository": "https://github.com/dylanejacob/vscode-smtp-headers",
     "engines": {
         "vscode": "^1.52.0"
     },
