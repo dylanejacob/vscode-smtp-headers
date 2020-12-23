@@ -1,0 +1,26 @@
+{
+    "name": "smtp-headers",
+    "displayName": "SMTP Headers",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "DylanJacob",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "smtpheaders",
+            "aliases": ["SMTP Headers", "smtpheaders"],
+            "extensions": [".msg",".eml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "smtpheaders",
+            "scopeName": "source.smtpheaders",
+            "path": "./syntaxes/smtpheaders.tmLanguage.json"
+        }]
+    }
+}
